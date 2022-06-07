@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cuenta</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/c1eae85dfa.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="grillaCuenta" class="border">
+    <header class="border"> 
+    </header>
+    <nav id="menu" class="menuFlex" >
+        <label class="logo"> ONIX GLAM</label>
+        |       <ul class="menuItems">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li class="active"><a href="micuenta.html">Mi cuenta</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>	
+                </ul>
+                <span class="btn_menu">
+                    <i class="fa fa-bars"></i>
+                </span>
+             </nav>	
+             <main id="cuenta">
+                <form action="#" method="POST">
+                    <div id="inicioSesion">
+                        <h1>Inicia sesión</h1>
+                        <div class="form">
+                            <div class="item"> <!--parte de nombre de usuario --> 
+                                <input type="text" placeholder="Email o Nombre de usuario" name="username"> <!-- Entrada de nombre de usuario realizada por cuadro de texto -->
+                            </div>
+                            <div class="item"> <!-- parte de la contraseña -->
+                                <input type="password" placeholder="Contraseña" name="password"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña -->
+                            </div>
+                        </div>
+                        <button type="submit">Iniciar sesión</button> <!-- Botón de inicio de sesión implementado con el botón -->
+                        <div>
+                            <p>
+                                <a class="parrafoMicuenta" href ="">¿Has olvidado tu contraseña?</a>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </main>
+</body>
+<footer >
+    <img src="fotos/LOGO ONIXGLAM.png" alt="logo" class="footer_logo">
+    <div class="footer_redes">
+        <p>Siguenos en nuestras redes</p>
+        <a href="https://www.instagram.com/" target="_blank"><img src="fotos/iconinstagram.png" alt="Logo de Instagram" title="Instagram"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="fotos/icontwitter.png" alt="Logo de Twitter" title="Twitter"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="fotos/icofacebook.png" alt="Logo de Facebook" title="Facebook"></a>
+    </div>
+    
+    <h5>Todos los derechos reservados.</h5>
+</footer>
+</html>
