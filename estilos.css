@@ -136,7 +136,7 @@ ul.show{
 .homeProductos-productos h3 {
     font-size: 1.2rem;
 }
-section a{
+.botonEstilo{
     width: 9rem;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -155,7 +155,7 @@ section a{
     margin-top: 20px;
     margin-bottom: 35px ;
 }
-section a:hover {
+.botonEstilo:hover {
     background-color: rgb(86, 39, 95);
 }
 
